@@ -26,7 +26,7 @@ public class App {
         list.pop();
         list.pop();
         list.printAll();*/
-        Tree tree = new Tree();
+        /*Tree tree = new Tree();
         tree.insert(99, "Melvin", "0000000", "mcalic1@miumg.edu.gt");
         tree.insert(3, "Melvin2", "0000000", "mcalic1@miumg.edu.gt");
         tree.insert(16, "Melvin3", "0000000", "mcalic1@miumg.edu.gt");
@@ -35,6 +35,17 @@ public class App {
         System.out.println("Inorden:");
         tree.inorder();
         System.out.println("Postorden:");
-        tree.postorder();
+        tree.postorder();*/
+        StaticHashTable staticHashTable = new StaticHashTable();
+        staticHashTable.put(25);
+        staticHashTable.put(-7);
+        staticHashTable.put(18);
+        staticHashTable.put(97);
+        staticHashTable.put(23);
+        staticHashTable.put(45);
+        staticHashTable.put(33);
+        staticHashTable.put(11);
+        staticHashTable.put(7);
+        staticHashTable.listar();
     }
 }
